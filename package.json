@@ -1,0 +1,39 @@
+{
+  "name": "calculadora-modular-proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto completo de calculadora modular con NPM - Enfocado en rendimiento, sostenibilidad y escalabilidad",
+  "private": true,
+  "scripts": {
+    "install:windows": "install.bat",
+    "install:unix": "sh install.sh",
+    "test:all": "cd calculadora-app && npm test",
+    "demo": "cd calculadora-app && npm run demo",
+    "benchmark": "cd calculadora-app && npm run benchmark",
+    "start": "cd calculadora-app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/calculadora-modular.git"
+  },
+  "keywords": [
+    "calculadora",
+    "npm",
+    "modular",
+    "educativo",
+    "matematicas"
+  ],
+  "author": "Erick",
+  "license": "MIT",
+  "workspaces": [
+    "2025a-swgr2-ee-suma",
+    "2025a-swgr2-ee-resta",
+    "2025a-swgr2-ee-multiplicacion",
+    "2025a-swgr2-ee-division",
+    "calculadora-app"
+  ],
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "2025a-swgr2-ee-multiplicacion",
+  "version": "1.0.0",
+  "description": "Módulo optimizado de multiplicación con validación avanzada y manejo de errores para calculadora modular",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [
+    "multiplicacion",
+    "multiplication",
+    "producto",
+    "calculadora",
+    "math",
+    "arithmetic",
+    "npm",
+    "modular"
+  ],
+  "author": "Erick",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

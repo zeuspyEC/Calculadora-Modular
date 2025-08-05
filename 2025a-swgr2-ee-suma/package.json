@@ -1,0 +1,24 @@
+{
+  "name": "2025a-swgr2-ee-suma",
+  "version": "1.0.0",
+  "description": "Módulo optimizado de suma con validación avanzada y manejo de errores para calculadora modular",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [
+    "suma",
+    "addition",
+    "calculadora",
+    "math",
+    "arithmetic",
+    "npm",
+    "modular"
+  ],
+  "author": "Erick",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

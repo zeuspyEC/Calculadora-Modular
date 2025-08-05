@@ -1,0 +1,24 @@
+{
+  "name": "calculadora-app",
+  "version": "1.0.0",
+  "description": "Aplicación de calculadora modular que integra operaciones matemáticas optimizadas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "demo": "node demo.js",
+    "benchmark": "node benchmark.js"
+  },
+  "keywords": [
+    "calculadora",
+    "modular",
+    "npm",
+    "matematicas",
+    "calculator"
+  ],
+  "author": "Erick",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
